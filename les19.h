@@ -4,6 +4,8 @@
 
 class Animal
 {
+protected:
+	Animal() {}
 public:
 	virtual void Voice() {}
 
